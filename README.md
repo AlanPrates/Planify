@@ -42,8 +42,6 @@ Planify/
 │   └── ui.js            # Manipulação da interface
 ├── index.html           # Página inicial do aplicativo
 ├── .gitignore           # Arquivo para ignorar arquivos no Git
-├── package.json         # Gerenciamento de dependências
-├── package-lock.json    # Controle de versões de dependências
 └── README.md            # Documentação do projeto
 ```
 
@@ -51,7 +49,6 @@ Planify/
 
 ### Requisitos
 
-- **Node.js**: Versão 14 ou superior (opcional, caso utilize pacotes).
 - Um navegador moderno (Google Chrome, Firefox, Edge, etc.).
 
 ### Passos
@@ -61,13 +58,7 @@ Planify/
    git clone https://github.com/AlanPrates/Planify.git
    cd Planify
    ```
-
-2. Se necessário, instale dependências:
-   ```bash
-   npm install
-   ```
-
-3. Abra o arquivo `index.html` diretamente no navegador **ou** utilize um servidor local (exemplo: Live Server no VS Code).
+2. Abra o arquivo `index.html` diretamente no navegador **ou** utilize um servidor local (exemplo: Live Server no VS Code).
 
 4. Explore o aplicativo e organize suas tarefas!
 
