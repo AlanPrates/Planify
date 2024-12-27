@@ -10,11 +10,19 @@
     "electron": "^23.3.13",
     "electron-builder": "^23.0.0"
   },
-  "build": {
-    "appId": "com.alanprates.estudotracker",
-    "win": {
-      "target": "nsis",
-      "icon": "assets/student.ico"
-    }
+"build": {
+  "appId": "com.alanprates.estudotracker",
+  "files": [
+    "main.js",
+    "index.html",
+    "renderer.js",
+    "style.css",
+    "assets/**/*"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "assets/student.ico"
   }
+}
+
 }
