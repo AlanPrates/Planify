@@ -1,0 +1,21 @@
+/* Animação da citação motivacional */
+.quote-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 2em;
+}
+
+.motivational-quote {
+    color: #666;
+    font-style: italic;
+    margin: 0;
+    white-space: nowrap;
+    position: absolute;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% { left: 100%; }
+    100% { left: -100%; }
+}

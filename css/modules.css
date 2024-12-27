@@ -1,0 +1,33 @@
+/* Módulos */
+.module {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.module h2 {
+    color: #333;
+}
+
+.module-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.module-header h2 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+/* Campo de entrada */
+.task-input {
+    width: calc(100% - 140px);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

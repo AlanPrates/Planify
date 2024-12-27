@@ -1,0 +1,71 @@
+/* Botões gerais */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+/* Hover nos botões */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Botões específicos */
+.button-add,
+.button-remove-all,
+.button-add-week {
+    background-color: #4caf50;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.button-add-module {
+    background-color: #4caf50;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 0.4vw;
+}
+.button-remove-all,
+.button-remove-line,
+.button-remove-module {
+    background-color: #f44336;
+}
+
+.button-add:hover,
+.button-add-week:hover,
+.button-add-module:hover {
+    background-color: #45a049;
+}
+
+.button-remove-all:hover,
+.button-remove-line:hover,
+.button-remove-module:hover {
+    background-color: #d32f2f;
+}
+
+/* Botão de limpar progresso */
+button#clear-storage {
+    background-color: #ff4d4f;
+    margin-top: 10px;
+}
+
+button#clear-storage:hover {
+    background-color: #ff7875;
+}
+.button-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.button-toggle:hover {
+    background-color: #0056b3;
+}

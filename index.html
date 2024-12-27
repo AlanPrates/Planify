@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Estudo Tracker</h1>
+            <div class="quote-container">
+                <p class="motivational-quote">"O sucesso é a soma de pequenos esforços repetidos dia após dia. By Alan Prates"</p>
+            </div>
+            <button id="clear-storage">Limpar Progresso</button>
+        </header>
+        
+        <!-- Módulos de Estudo -->
+        <div id="modules"></div>
+        
+        <!-- Modal para mensagens -->
+        <div id="custom-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <p id="modal-message">Confirma?</p>
+                <button id="modal-ok-btn">OK</button>
+                <button id="modal-cancel-btn">Cancelar</button>
+            </div>
+        </div>
+
+        <!-- Modal para controle -->
+        <div id="control-modal" class="modal">
+            <div class="modal-content" id="control-modal-content">
+                <span id="close-control-modal" class="close">&times;</span>
+                <!-- Botões serão carregados dinamicamente pelo JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
